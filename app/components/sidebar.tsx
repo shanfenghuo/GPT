@@ -155,10 +155,16 @@ export function SideBar(props: { className?: string }) {
     >
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title"]} data-tauri-drag-region>
-          ChatGPT Next
+          欢迎使用ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Build your own AI assistant.
+          ☆→网站供免费访问，但如果你是使用本网站提供的Key，使用过程中遇到问题，可邮件反馈 feedback@caiaiwan.com
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+          ———
+        </div>
+        <div className={styles["sidebar-sub-title"]}>
+          ☆→使用过程中出现异常，请进入设置&gt;重置所有数据/清除所有数据；如无法解决，请前往openai官网检查服务是否正常 https://status.openai.com
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -216,11 +222,7 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
-            </a>
-          </div>
+
         </div>
         <div>
           <IconButton
