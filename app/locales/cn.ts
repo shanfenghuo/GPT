@@ -8,7 +8,7 @@ const cn = {
   Error: {
     Unauthorized: isApp
       ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
-      : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
+      : "❓访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。\n \n🛎️如果您没有 OpenAI API Key，可以考虑使用本网站的中转Key服务，它可以在除本站外支持更改代理地址的应用中使用，使用此中转服务将帮助本网站良性发展。\n \n👉服务入口：[点击获取](https://store.caiaiwan.com)丨使用手册：[点击查看](https://ragtoxusms2.feishu.cn/docx/VWdSdQUGwox2a1xthwBc8gF4nEd)\n \n⚠️*注：本服务不知晓也无从知晓用户在本服务上传输的任何文本内容，用户使用本服务引发的任何违法犯罪后果，由使用者承担，本服务将全力配合由此可能引起的相关调查；\n用户在平台上的任何付款行为，均视为对本网站的捐赠行为，并不与本服务构成交易，也不存在任何法律意义上的合同或契约关系；\n本服务无SLA保障，但会尽可能的提供稳定使用环境，如果你在使用此服务过程中遇到问题，请通过发送邮件至左侧公告中的邮件地址进行联系，我们将尽可能帮助解决。*",
   },
   Auth: {
     Title: "需要密码",
@@ -342,7 +342,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "欢迎使用ChatGPT~\n \n提示:如果你需要将本网站的Key在其他应用中使用，请复制👉[代理地址](https://api.caiaiwan.com)到你的应用中进行更改即可，查询Key使用详细可以👉[点击这里](https://usage.caiaiwan.com)；如果遇到问题，可以查看👉[使用手册](https://ragtoxusms2.feishu.cn/docx/VWdSdQUGwox2a1xthwBc8gF4nEd)。",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
